@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Testezinho top </title>
+
+    <style>
+        .vermelho {
+            color: red
+        }
+
+        #rosa {
+            color: magenta
+        }
+
+        .vermelho.grande {
+            font-size: 48px;
+        }
+
+        .vermelho.grande span {
+            color: green
+        }
+
+        .vermelho.grande > span {
+            color: blue
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Título</h1>
+    <h2 class="neto" id="t2">Título</h2>
+    <h6>Título</h6>
+
+    <p class="vermelho" id="rosa">Parágrafo</p>
+    <p class="vermelho grande">
+        Parágrafo 
+        <span>
+            Teste
+            <span>2</span>
+        </span>
+    </p>
+    <p>Parágrafo</p>
+
+    <span>Texto</span>
+    <span>Texto</span>
+    <span>Texto</span>
+    <span>Texto</span>
+
+    <div>div</div>
+    <div>div</div>
+    <div>div</div>
+
+    <div>div</div>
+
+    <br>
+    <br>
+
+    <a href="#t2">Topo</a>
+    <a href="https://google.com" target="_blank">Google</a>
+
+    <form action="javascript:">
+        <label for="nome">Qual é o seu nome?</label>
+        <input id="nome" type="text">
+        <button onclick="mostrarResultado()">Enviar</button>
+    </form>
+    <script>
+
+        function mostrarResultado() {
+            var nome = document.querySelector('#nome');
+            var resultado = "Olá";
+
+            if (nome.value.length > 0) {
+                resultado += ', ' + nome.value
+            }
+
+            resultado += '!';
+
+            alert(resultado)
+        }
+
+    </script>
+</body>
+</html>
