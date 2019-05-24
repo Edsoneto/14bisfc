@@ -534,7 +534,7 @@ address { font-style: italic; }
 	float: left;
 }
 .tg-bglight{ background:#f7f7f7;}
-.tg-bgdark{ background:#373542 url(../images/bg-pattran.png);}
+.tg-bgdark{ background:#000000 url(../images/bg-pattran.png);}
 .tg-stars span,
 .tg-stars{
 	width:100px;
@@ -1503,7 +1503,7 @@ address { font-style: italic; }
 	height:100%;
 	overflow:hidden;
 	position:relative;
-	background:#373542;
+	background:#000000;
 }
 .tg-sliderbox .tg-imglayer{
 	width:120%;
@@ -1731,7 +1731,7 @@ address { font-style: italic; }
 	z-index:1;
 	height:100%;
 	position:absolute;
-	background:#373542;
+	background:#000000;
 }
 .tg-bgstyleone .tg-bgboxone{
 	left:auto;
@@ -1815,7 +1815,7 @@ address { font-style: italic; }
 	float:left;
 	padding:20px;
 	text-align:center;
-	background:rgba(55,53,66,0.80);
+	background:rgba(0, 0, 0, 0.8);
 }
 .tg-counter + .tg-counter{ margin:0 0 0 30px;}
 .tg-counter h3{
@@ -1845,7 +1845,7 @@ address { font-style: italic; }
 	float:left;
 	z-index:2;
 	overflow:hidden;
-	background:#373542;
+	background:#000000;
 	position:relative;
 }
 .tg-matchresult:after{
@@ -2424,7 +2424,7 @@ address { font-style: italic; }
 /*=============================================
 			Footer Style
 =============================================*/
-.tg-footer{ background:#373542;}
+.tg-footer{ background:#000000;}
 .tg-footerinfobox{position:relative;}
 .tg-footerinfobox .tg-bgboxone{
 	width:61.8%;
